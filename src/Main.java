@@ -1,5 +1,11 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/*
+ Ejemplo de trabajo colaborativo
+ Una persona hace el método main.
+ Otra persona hace el método esPrimo
+ Otra persona hace el método esCapicua
+
+ Y luego lo integramos todo
+ */
 public class Main {
     public static void main(String[] args) {
         for( int candidato = 10_000_000 ; ; i += 1 ){

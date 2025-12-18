@@ -7,6 +7,11 @@
  Y luego lo integramos todo
  */
 public class Main {
+    //esPrimo
+    public static boolean esPrimo(int numero){
+
+        return true;
+    }
     public static void main(String[] args) {
         for( int candidato = 10_000_000 ; ; i += 1 ){
             if( esPrimo(candidato) && esCapicua(candidato) ){
@@ -15,4 +20,5 @@ public class Main {
             }
         }
     }
+
 }

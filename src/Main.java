@@ -9,6 +9,12 @@
 public class Main {
     //esPrimo
     public static boolean esPrimo(int numero){
+        if (numero < 2) return false;
+        if (numero % 2 == 0) return numero == 2;
+
+        for (int i = 3; i * i <= numero; i += 2) {
+            if (numero % i == 0) return false;
+        }
 
         return true;
     }

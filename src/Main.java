@@ -38,4 +38,9 @@ public class Main {
             return n == invertido;
     }
 
+    public static boolean esCapicuaFacil(int candidato){
+        var cadena = String.valueOf(candidato);
+        return new StringBuilder(cadena).reverse().toString() == cadena;
+    }
+
 }

@@ -19,7 +19,7 @@ public class Main {
         return true;
     }
     public static void main(String[] args) {
-        for( int candidato = 10_000_000 ; ; i += 1 ){
+        for( int candidato = 10_000_000 ; ; candidato += 1 ){
             if( esPrimo(candidato) && esCapicua(candidato) ){
                 System.out.println("Encontrado:" + candidato);
                 System.exit(0);
@@ -28,7 +28,7 @@ public class Main {
     }
     public static boolean esCapicua(int candidato){
             // Trabajamos con el valor absoluto por si el número es negativo
-            int n = Math.abs(numero);
+            int n = Math.abs(candidato);
 
             int copia = n;
             int invertido = 0;
